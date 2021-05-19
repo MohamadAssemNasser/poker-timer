@@ -5,13 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'fomantic-ui-css/semantic.min.css';
-import { TimerContextProvider } from "./context/timer-context";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TimerContextProvider>
       <App />
-    </TimerContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
